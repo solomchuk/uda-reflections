@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git creates metadata needed to track changes in the repository.
+Can't track changes without the metadata.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+WD - everything is still a work in progress and can change.
+SA - when something is ready for a commit and doesn't have to change anymore, it goes here.
+Helps with tracking the progress of a planned commit.
