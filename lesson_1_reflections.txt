@@ -1,0 +1,32 @@
+How did viewing a diff between two versions help you spot the bug?
+This aproach allows you to ignore the content that did not change between versions, focusing the attention on important bits.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+You can spot changes you regularly make, think about why you make them, and perhaps change your workflow to avoid having to make them.
+You can look back to remember the reasoning for changing things, or doing things one way and not the other.
+You can save yourself from having to re-do some things from scratch if you mess something up.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros:
+Avoids saving incomplete work
+Author should know well when a change is correct size to commit
+Avoids cluttering history with meaningless commits
+Cons:
+Author should remember to make commits now and then
+Takes a little bit of time and effort to manually commit
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git deals with projects that are usually multi-file (e.g. software), where changes in one file can affect others.
+Google Docs is used for documents, where such a situation is less common (though still possible).
+
+How can you use the commands git log and git diff to view the history of files?
+Git log shows you every commit made to the repository (id, date, comment).
+Git diff shows the differences between two chosen committs (lines added, removed of changed).
+
+How might using version control make you more confident to make changes that could break something?
+Knowing that you can always go back to a version that you know works makes you confident, yes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Versioning of work-related python scripts.
+Versioning of learning-related python scripts.
+Using it in other courses I am doing.
