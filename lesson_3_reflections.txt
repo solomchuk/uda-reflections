@@ -3,3 +3,11 @@ When working on the same materials across multiple devices
 When collaborating with other people
 When sharing the results with, say, a client
 When working on a device with limited local storage capacity
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork - clone of repo on Github. Use when you want to take someone's work and move in another direction
+without affecting the source project. Also keeps track of where it was cloned from.
+Clone - any clone of a repo (local to local, remote to local, remote to remote). Does not keep track of
+whenre it was cloned from. Use for your own work or if you don't care about the origin.
+Branch is sort of like a clone within a repo. Allows you to experiment, or others to work on the project
+in parallel. Can be merged back into master branch.
