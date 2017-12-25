@@ -17,3 +17,7 @@ Clone - any clone of a repo (local to local, remote to local, remote to remote).
 whenre it was cloned from. Use for your own work or if you don't care about the origin.
 Branch is sort of like a clone within a repo. Allows you to experiment, or others to work on the project
 in parallel. Can be merged back into master branch.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Keeping local and remote copies in sync or up to date.
+Helps avoid merge conflicts, or at least makes it easier to handle them.
