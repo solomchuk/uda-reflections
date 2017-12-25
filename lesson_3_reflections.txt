@@ -3,3 +3,9 @@ When working on the same materials across multiple devices
 When collaborating with other people
 When sharing the results with, say, a client
 When working on a device with limited local storage capacity
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Some changes might not be ready to be committed to remote
+Again - choosing the timing is important, don't want to update mid-edit
+Some changes might need to stay secret for a time
+Pulling from remote - your local version might depend on things that got changed/removed on remote
