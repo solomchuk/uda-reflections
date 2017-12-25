@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+When working on the same materials across multiple devices
+When collaborating with other people
+When sharing the results with, say, a client
+When working on a device with limited local storage capacity
